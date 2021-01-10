@@ -44,6 +44,7 @@
           win-arm64;
           win-x64;
           win-x86;
+          freebsd-x64;
           " />
 
       <NetCoreRuntimePackRids Include="@(NetCore30RuntimePackRids)"/>
@@ -58,6 +59,7 @@
         linux-x64;
         linux-arm;
         linux-arm64;
+        freebsd-x64;
         " />
 
       <AspNetCoreRuntimePackRids Include="@(AspNetCore30RuntimePackRids)" />
